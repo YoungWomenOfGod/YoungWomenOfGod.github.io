@@ -1,24 +1,37 @@
-h1{
-
-color: #fff;}
-.Menu li { 
+.Header h1{
+	color: white;
+	padding: 110px;
+	background-image: url('https://scontent-2.2914.fna.fbcdn.net/hphotos-xaf1/v/t1.0-9/10635759_10204906200995027_3734513324388708543_n.jpg?oh=0c06cff8a08e55a0abbdbbc70a4c7f29&oe=550EDF02');
+	font-size: 40px;
+	text-align:center;
+	text-transform: uppercase;
+}
+.Navagation li { 
 background: rosybrown;
 display: inline;
 text-align: center;
-
+text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 14px 10px;
 }
 
-.Menu a{ 
+.Navagation a{ 
 text-decoration: none;
 color: #000000;
 }
-.Menu a:hover{
+.Navagation a:hover{
 
 	background-color: whitesmoke;
 	border-radius: 15px;
 }
 
-.Header {
+.container {
+	color: #fff;
+	text-align:center;
+	margin: 0px;
   background-color: slategray;
+  font-size: 15px;
+  padding: 14px 10px;
 
 }
