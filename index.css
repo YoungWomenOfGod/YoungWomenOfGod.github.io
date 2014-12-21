@@ -6,14 +6,34 @@
 	text-align:center;
 	text-transform: uppercase;
 }
+
+.container a{ text-decoration: none;
+color: black;}
+
+.container a:hover{background-color: whitesmoke;
+	border-radius: 15px;}
+	
+	
+.container li{
+
+text-decoration: none;
+	background-color: rosybrown;
+	border-radius: 50px;
+	color: black;
+	text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 10px}
+
 .Navagation li { 
 background: rosybrown;
+border-radius: 200px;
 display: inline;
 text-align: center;
 text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 10px 50px;
 }
 
 .Navagation a{ 
@@ -28,10 +48,11 @@ color: #000000;
 
 .container {
 	color: #fff;
-	text-align:center;
-	margin: 0px;
+	text-align:left;
+margin: 70px;
   background-color: slategray;
   font-size: 15px;
   padding: 14px 10px;
+  
 
 }
